@@ -80,6 +80,9 @@ resource "aws_instance" "nginx_instance" {
   }
 }
 
+output "a" {
+  value = "a"
+}
 
 # 출력: EC2 인스턴스의 퍼블릭 IP 주소
 output "nginx_instance_public_ip" {
